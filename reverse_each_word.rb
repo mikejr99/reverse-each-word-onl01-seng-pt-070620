@@ -5,5 +5,5 @@ def reverse_each_word(phrase)
   reversed_phrase = list_phrase.each do |word|
     word.reverse!
    end
-  return reversed_phrase
+  return reversed_phrase.join(' ')
 end
