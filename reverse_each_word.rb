@@ -1,5 +1,7 @@
 require 'pry'
 
 def reverse_each_word(phrase)
-   phrase.split(" ").collect {|x| x.reverse!}.join(" ")
+   phrase.split(" ")
+   phrase.collect {|x| x.reverse!}
+   phrase.join(" ")
 end
