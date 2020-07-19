@@ -1,5 +1,6 @@
 def reverse_each_word(phrase)
-  phrase.each do |word|
+  list_phrase = phrase.split(', ')
+  list_phrase.each do |word|
     phrase
   end
 end
